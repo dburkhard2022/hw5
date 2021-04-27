@@ -44,8 +44,6 @@ window.addEventListener('DOMContentLoaded', async function() {
   
         // - Write the json-formatted data to the JavaScript console
         console.log(json)
-        console.log(location)
-        console.log(numDays)
   
         // - Store the interpreted location, current weather conditions, the forecast as three separate variables
         let locationNew = `${json.location.name}, ${json.location.region}`
